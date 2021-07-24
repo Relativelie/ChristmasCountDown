@@ -49,11 +49,11 @@ playButton.addEventListener("click", function () {
     if (playOnOff === false) {
         document.querySelector("#myAudio").play();
         playOnOff = true;
-        document.querySelector("button img").src = "pauseicon.png"
+        document.querySelector("button img").src = "pauseIcon.png"
     }
     else {
         document.querySelector("#myAudio").pause();
         playOnOff = false;
-        document.querySelector("button img").src = "playicon.png"
+        document.querySelector("button img").src = "playIcon.png"
     }
 })
