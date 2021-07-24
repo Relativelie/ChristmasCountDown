@@ -1,0 +1,90 @@
+body  {
+    background-image: url("santasImage.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-color: rgb(211, 39, 39);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    padding: 20px;
+    border: 3px solid black;
+    background-color: rgba(251, 248, 249, 0.9);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.daysBeforeBlock {
+    background-color: rgba(251, 248, 249, 0.82);
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    border: 3px solid black;
+}
+
+.daysBeforeItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.daysBeforeItem h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.daysBeforeItem h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.redText {
+    color: red;
+    font-size: 60px;
+    font-family: 'Staatliches', cursive;
+}
+
+button {
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 100px;
+    width: 100px;
+}
+
+button img {
+    width: 100%;
+}
+
+
+button:hover {
+    box-shadow: 0 0 15px rgb(144, 239, 246);
+    transition-duration: 0.5s;
+}
+
+@media all and (max-width: 800px) {
+    .header h1 {
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .header h1 {
+        font-size: 30px;
+    }
+}
